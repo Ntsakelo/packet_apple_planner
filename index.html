@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Packet Price Planner</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="appHead">Appple packet price planner</h1>
+        <div class="buyingData">
+            <h3>Buying data</h3>
+            <form>
+                <div class="data">
+                    <label for="boxCost">Apple box price</label>
+                    <input type="text" class="boxCost inputData">
+
+                </div>
+                <div class="data">
+                    <label for="numOfApples">Quantity of apples</label>
+                    <input type="text" class="numOfApples inputData">
+
+                </div>
+                <div class="data">
+                    <label for="numPerPacket">Quantity Per Pack</label>
+                    <input type="text" class="numPerPacket inputData">
+                </div>
+                <div class="data">
+                    <label for="percentProfit">Required profit %</label>
+                    <input type="text" class="percentProfit inputData">
+                </div>
+                <div class="buttonDiv">
+
+                    <button type="button" class="calculate">Calculate</button>
+                </div>
+            </form>
+            <h3 class="calcHead">Apple calculations</h3>
+            <div class="output">
+                <h4 class="outputHead">Number of Packets</h4>
+                <div class="numOfPackets calcData">
+                    <h6 class="packetsNum display"></h6>
+                </div>
+
+            </div>
+            <div class="output">
+                <h4 class="outputHead">Cost price per apple</h4>
+                <div class="numOfPackets calcData">
+                    <h6 class="appleCost display"></h6>
+                </div>
+
+            </div>
+            <div class="output">
+                <h4 class="outputHead">Cost price per pack</h4>
+                <div class="numOfPackets calcData">
+                    <h6 class="packCost display"></h6>
+                </div>
+
+            </div>
+            <div class="output">
+                <h4 class="outputHead">Recommended pack price</h4>
+                <div class="numOfPackets calcData">
+                <h6 class="priceRecommend display"></h6>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="./applePacket.js"></script>
+    <script src="./applesPacketDOM.js"></script>
+</body>
+
+</html>

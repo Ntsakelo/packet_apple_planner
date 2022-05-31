@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    font-family: 'Ubuntu',
+        sans-serif;
+    background-color: #303e49;
+    color: white;
+}
+
+.buyingData {
+    width: 70%;
+    margin: auto;
+}
+
+.appHead {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.data {
+    margin-top: 50px;
+}
+
+.inputData {
+    float: right;
+    outline: none;
+
+}
+
+label {
+    margin-right: 50px;
+
+}
+
+.calcHead {
+    margin-top: 100px;
+}
+
+.outputHead {
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.output {
+    margin-top: 20px;
+}
+
+.calcData {
+    /* background: rgb(247, 239, 239); */
+    background: #aca270;
+    width: 45%;
+    height: 30px;
+    display: inline;
+    float: right;
+    color: white;
+
+}
+
+.buttonDiv {
+    margin-top: 40px;
+
+}
+
+.calculate {
+    float: right;
+    margin-right: 40px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.display {
+    margin-top: 3px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+@media screen and (width: 280px) {
+    .inputData {
+        width: 50%;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    .calcData {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .buyingData {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:700px) {
+    .buyingData {
+        width: 50%;
+    }
+
+    .inputData {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .buyingData {
+        width: 35%;
+    }
+
+    .inputData {
+        width: 45%;
+    }
+}
